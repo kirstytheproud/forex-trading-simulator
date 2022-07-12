@@ -15,7 +15,9 @@ Using as series of multiple nested switch statements, a user interaction in the 
 <br>
 The user can then choose from 5 options, to pick one of the three instruments, to check their balance or funds, or to exit and terminate the application. 
 <br>
-If the user chooses one of the three instruments, they are presented with the current prices at the most current price stamp, and the options to either buy and sell the currency, or to go back and choose another.
+If the user chooses one of the three instruments, they are presented with the current prices at the most current price stamp, and the options to either buy and sell the currency, or to go back and choose another. If Buy is selected, the user can specify what amount of their funds they would like to allocate to the purchase, and will receive an update about the amounts in their accounts after the purchase.
 <br><br>
 ![se,e](https://user-images.githubusercontent.com/37534696/178406163-ab299a1d-d06d-43c5-9732-796086fb214b.gif)
 <br><br>
+The user can continuously buy and sell currencies so long as they have the available funds and balance needed. The app has been designed to also handle situtations in which the user may have insufficient amounts for their chosen transaction.<br><br>
+![insufficient amounts](https://user-images.githubusercontent.com/37534696/178407252-beae3fce-1c35-4093-ab02-8562dbad42b4.gif)
