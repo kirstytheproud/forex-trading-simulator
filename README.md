@@ -8,3 +8,7 @@ Buy and trade currencies with an automated, updated FX Market Price feed. The Pr
 <br>
 <br>
 In order to allow a "buy" and "sell" interaction, I have created a User class which utilises methods for these actions. I have used the term "Balance" or "Currency Balance" to signify the amount of currency that has currently been purchased, and "Funds" or "Available funds" as the amount the user has that can be used to purchase more currency. Currently, for simplicity, the balance and funds are just floating numbers, during buying and selling, there is currently no other conversion from the users funds into any currencies. This would definitely be the next step in improving this application to make it more realistic. All numbers have been adjusted to be rounded up to 4 decimal places. 
+<br>
+<br>
+Using as series of multiple nested switch statements, a user interaction in the console has been designed in order to allow the user to add funds to their account and buy and sell currencies. The user first adds their name in order to create an instance of the User object, and can add an amount to their funds.
+<br><br>![created user 1](https://user-images.githubusercontent.com/37534696/178405918-fd2014a1-7fe1-473e-84ba-491c03973409.gif)
